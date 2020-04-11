@@ -13,9 +13,10 @@ It seems that 32MiB of RAM isn't enough to run this game, judging by the followi
 51:19:057 HLE/sceKernelModule.cpp:1652 E[LOADER]: Failed to load module umd0:/EBOOT.PBP
 
 Same results on a real PSP-1000, so this isn't a PPSSPP issue.
-It seems that the game is so freaking big that it can't fit into the 32MiB of RAM.
 
-Enjoy fixing this somehow.
+Turns out that @cyxx got it working, by disabling SDL and xbr and instead using sceGU
+
+Here is his/her diff: https://pastebin.com/wAsEvZ3L
 
 About:
 ------
