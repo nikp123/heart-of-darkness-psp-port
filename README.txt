@@ -6,7 +6,7 @@ Release version: 0.2.8
 PSP port notes:
 ---------------
 
-It seems that 32MiB of RAM isn't enough to run this game, judging by the following error:
+It seems that 32MiB of RAM isn't enough to run this game (with xbr enabled), judging by the following error:
 51:19:057 Util/BlockAllocator.cpp:154 E[SCEKERNEL]: Clearly bogus size: 0426a86c - failing allocation
 51:19:057 ELF/ElfReader.cpp:442 E[LOADER]: Failed to allocate memory for ELF!
 51:19:057 HLE/sceKernelModule.cpp:1179 E[SCEMODULE]: LoadInto failed with error 800200d9
